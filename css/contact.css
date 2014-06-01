@@ -1,20 +1,86 @@
-#contact { display: block; width: auto; margin: 0; padding: 0px; border: none; margin:10px 0; position:relative; overflow:visible }
-
-#contact label { display: none; float: none; height:0px; }
-#contact input, textarea, select { width:214px; height:16px; padding:10px 11px 10px 11px; font: 13px "PT Sans", Arial, Helvetica, sans-serif; color:#747474; border:1px solid #cfcfcf; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; margin:5px 0; -webkit-appearance: none; background:none }
-#contact textarea { margin-bottom:0px; margin-right:0px !important; width:214px; height:80px; }
-#contact input:focus, textarea:focus, select:focus {  }
-#contact input.submit { display:inline-block; width:auto; float:right; border:0px; padding:0px; color:#2d2d2d; font-size:12px; margin-right:20px; background:none; cursor:pointer}
-#contact input.submit:hover { color:#747474; }
-
-#contact fieldset { padding-left:0px;}
-
-#message { padding: 0; position:absolute; top:5px; width:238px; }
-#success_page {background:#fff; padding-bottom:75px; }
-
-.error_message { display: block; background: #f1adc5; padding:10px 11px 10px 11px; color:#a11c4b; border: 1px solid #a11c4b;  }
-
-.loader { display:none; }
-
-#contact .padding-right {padding-right:20px; }
-#comments {height: 85px; }
+#contact {
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 0px;
+    border: none;
+    margin: 10px 0;
+    position: relative;
+    overflow: visible
+}
+#contact label {
+    display: none;
+    float: none;
+    height: 0px;
+}
+#contact input,
+textarea,
+select {
+    width: 45%;
+    height: 16px;
+    padding: 10px 11px 10px 11px;
+    font: 13px"PT Sans", Arial, Helvetica, sans-serif;
+    color: #747474;
+    border: 1px solid #cfcfcf;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    margin: 5px 0;
+    -webkit-appearance: none;
+    background: none
+}
+#contact textarea {
+    margin-bottom: 0px;
+    margin-right: 0px !important;
+    width: 95%;;
+    height: 100px;
+}
+#contact input:focus,
+textarea:focus,
+select:focus {} #contact input.submit {
+    display: inline-block;
+    width: auto;
+    float: right;
+    border: 1px;
+    padding: 0px;
+    color: #2d2d2d;
+    font-size: 12px;
+    margin-right: 20px;
+    background: none;
+    cursor: pointer;
+    
+}
+#contact input.submit:hover {
+    color: #747474;
+    
+}
+#contact fieldset {
+    padding-left: 0px;
+}
+#message {
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    width: 238px;
+}
+#success_page {
+    background: #fff;
+    padding-bottom: 75px;
+}
+.error_message {
+    display: block;
+    background: #f1adc5;
+    padding: 10px 11px 10px 11px;
+    color: #a11c4b;
+    border: 1px solid #a11c4b;
+}
+.loader {
+    display: none;
+}
+#contact .padding-right {
+    padding-right: 20px;
+}
+#comments {
+    height: 85px;
+}

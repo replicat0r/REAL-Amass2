@@ -64,7 +64,7 @@ span.comment {background:url(../images/bg-comments@2x.png) no-repeat 0px 3px; ba
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-body {background:#000 }
+body {background:#fff }
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
