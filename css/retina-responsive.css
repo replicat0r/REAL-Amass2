@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* Retina Ready Images */
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+h1#logo a { background:url(../images/bg-logo@2x.png) no-repeat 20px center; background-size:178px 60px; }
+
+#mail {background:url(../images/bg-mail@2x.png) no-repeat center; background-size:12px 10px; }
+#phone {background:url(../images/bg-phone@2x.png) no-repeat center; background-size:12px 12px; }
+#pointer {background:url(../images/bg-pointer@2x.png) no-repeat center; background-size:9px 12px; }
+#time {background:url(../images/bg-time@2x.png) no-repeat center; background-size:12px 12px; }
+
+.xing {background:url(../images/bg-xing@2x.png) no-repeat; background-size:24px 24px; }
+.google {background:url(../images/bg-googleplus@2x.png) no-repeat; background-size:24px 24px; }
+.twitter {background:url(../images/bg-twitter@2x.png) no-repeat; background-size:24px 24px; } 
+.facebook {background:url(../images/bg-facebook@2x.png) no-repeat; background-size:24px 24px; }
+.pinterest {background:url(../images/bg-pinterest@2x.png) no-repeat; background-size:24px 24px; }
+.instagram {background:url(../images/bg-instagram@2x.png) no-repeat; background-size:24px 24px; }
+.vimeo {background:url(../images/bg-vimeo@2x.png) no-repeat; background-size:24px 24px; }
+.skype {background:url(../images/bg-skype@2x.png) no-repeat; background-size:24px 24px; }
+.dribble {background:url(../images/bg-dribble@2x.png) no-repeat; background-size:24px 24px; }
+
+.close {background:url(../images/bg-close@2x.png) center no-repeat #fff; background-size:18px 18px; }
+
+.notes {background:url(../images/bg-notes@2x.png) center no-repeat; background-size:20px 27px; }
+.single-work .notes { background:url(../images/bg-notes@2x.png) center no-repeat #fff; background-size:20px 27px; }
+.cogwheels {background:url(../images/bg-cogwheels@2x.png) center no-repeat; background-size:34px 27px; }
+.charts {background:url(../images/bg-charts@2x.png) center no-repeat; background-size:24px 27px; }
+.cup {background:url(../images/bg-cup@2x.png) center no-repeat; background-size:22px 24px; }
+.certificate {background:url(../images/bg-certificate@2x.png) center no-repeat; background-size:17px 25px; }
+
+#backtotop ul li a { background:url(../images/bg-up@2x.png) center 48% no-repeat #fff; background-size:22px 15px; }
+
+.flex-direction-nav .flex-next {background:url(../images/bg-next@2x.png) 19px center no-repeat #fff; background-size:15px 22px; }
+.flex-direction-nav .flex-prev {background:url(../images/bg-prev@2x.png) 16px center no-repeat #fff; background-size:15px 22px; }
+
+.fancybox-close {background: url(../images/bg-close@2x.png) center no-repeat #fff; background-size:18px 18px;}
+.fancybox-prev span {background:url(../images/bg-prev@2x.png) 16px center no-repeat #fff; background-size:15px 22px; }
+.fancybox-next span {background:url(../images/bg-next@2x.png) 19px center no-repeat #fff; background-size:15px 22px;}
+
+#nav li a.menu { background:url(../images/bg-close-small@2x.png) no-repeat right center #fff; background-size:28px 12px; }
+#nav li a.menu.open { background:url(../images/bg-open-small@2x.png) no-repeat right center #fff; background-size:30px 8px; }
+
+span.user {background:url(../images/bg-user@2x.png) no-repeat 0px 3px; background-size:12px 12px; }
+span.calendar {background:url(../images/bg-calendar@2x.png) no-repeat 0px 2px; background-size:11px 12px; }
+span.comment {background:url(../images/bg-comments@2x.png) no-repeat 0px 3px; background-size:12px 11px; }
+}
+
+
+@media only screen and (min-width: 1600px) {
+/*.container { padding:0px; width:1600px; position:relative; margin:0 auto; }*/
+}
+
+@media only screen and (min-width: 1280px) {
+/*.container { padding:0px; width:1280px; position:relative; margin:0 auto; }*/
+}
+
+/* Standard 960 or larger (browsers) */
+@media only screen and (min-width: 960px) {
+
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+body {background:#000 }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container { padding:0px; width:640px; position:relative; }
+.single-work header { width:640px; }
+#sidebar { width:620px; margin-right:0 !important; margin-top:20px; float:none; display:none }
+
+h1#logo { width:620px; }
+
+#nav-button {display:block; background:#fff; width:100px; height:25px; padding:8px 20px 0 20px; position:relative; float:left; background:#fff; margin-left:10px; cursor:pointer; }
+.nav-bar {background-color:#2d2d2d; border-radius:1px; display:block; width:15px; height:2px; margin:2px auto; }
+.nav-bar.first {margin-top:3px; }
+
+#nav {width:620px; }
+#nav li { width:620px; }
+#nav li a { width:580px; }
+#nav li ul li a { width:560px; }
+
+footer p {margin-left:10px; }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 767px) {
+.container { padding:0px; width:320px; position:relative; }
+.single-work header { width:320px; }
+#sidebar { width:300px; margin-right:0 !important; margin-top:20px; float:none; display:none }
+.col2-3 { width:300px; margin:10px; }
+.col2-3 .white { width:240px; padding:20px 30px; }
+
+h2 {font-size:24px; margin:0px 0px 14px 0px; padding-bottom:20px; padding-top:4px; border-bottom:1px solid #cfcfcf;}
+p.blockquote.alignright {width:auto; margin-left:0px !important; float:none !important }
+
+.half {width:auto; float:none }
+.half.second {margin-left:0px; }
+
+.when i {display:none; }
+
+#map {width:300px; height:260px; margin:0; border:0}
+
+h1#logo { width:300px; }
+
+#nav-button {display:block; background:#fff; width:100px; height:25px; padding:8px 20px 0 20px; position:relative; float:left; background:#fff; margin-left:10px; cursor:pointer; }
+.nav-bar {background-color:#2d2d2d; border-radius:1px; display:block; width:15px; height:2px; margin:2px auto; }
+.nav-bar.first {margin-top:3px; }
+
+#nav {width:300px; }
+#nav li { width:300px; }
+#nav li a { width:260px; }
+#nav li ul li a { width:240px; }
+
+footer p {margin-left:10px; }
+
+.infos {top:134px; }
+.single-work aside { margin-top:144px; }
+}
